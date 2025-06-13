@@ -1,0 +1,18 @@
+<odoo>
+  <data>
+    <!-- Root Menu -->
+    <menuitem id="menu_sendcloud_root" name="Sendcloud" sequence="10"/>
+
+    <!-- Action: placeholder for now -->
+    <record id="action_sendcloud_dashboard" model="ir.actions.client">
+      <field name="name">Sendcloud Dashboard</field>
+      <field name="tag">sendcloud_dashboard</field>
+    </record>
+
+    <!-- Attach Action to Menu -->
+    <menuitem id="menu_sendcloud_dashboard"
+              name="Dashboard"
+              parent="menu_sendcloud_root"
+              action="action_sendcloud_dashboard"/>
+  </data>
+</odoo>
