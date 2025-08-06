@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 {
-    'name': "Show Stock on Website",
+    'name': "Show Stock on Website ",
     'version': '18.0.1.0.1',
     'category': 'Website',
     'summary': 'Allows users to see stock details of products from the website',
